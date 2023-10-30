@@ -1,5 +1,6 @@
 .container-background {
     background-image: url('../../images/slider/bannerBg.webp');
+    background-size: cover;
 }
 
 .carousel-text h1 {
@@ -11,7 +12,7 @@
     font-size: 18px;
 }
 
-.anchor-container a>img{
+.anchor-container a>img {
     width: 196px;
     height: 57px;
 }
@@ -23,11 +24,26 @@
 
 @media only screen and (max-width: 600px) {
     .carousel-text h1 {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .carousel-text p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
+    .anchor-container a>img {
+        width: 177px;
+        height: 51px;
+    }
+
+    .carousel-image {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    .carousel-image {
+        display: none;
+    }
 }

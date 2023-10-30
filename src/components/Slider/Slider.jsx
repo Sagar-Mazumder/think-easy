@@ -6,19 +6,34 @@ import Banner2 from '../../images/slider/banner-mobile2.png';
 import AppStore from '../../images/slider/app-store.webp'
 import PlayStore from '../../images/slider/google-play.webp'
 import { Container } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+import Typewriter from 'typewriter-effect';
+
 const Slider = () => {
     return (
-        <div className='container-background'>
+        <div className='container-background py-5 pb-lg-0'>
             <Container >
                 <Carousel data-bs-theme="primary">
-                    <Carousel.Item>
-                        <div className="d-flex justify-content-around 
+                    <Carousel.Item interval={8000}>
+                        <div className="d-lg-flex justify-content-around 
                         align-items-center">
                             <div className="carousel-text text-white">
-                                <h1>Simple yet<br />Elegant Design.<br />Better Looks.</h1>
+                                <h1>
+                                    <Typewriter
+                                        onInit={(typewriter) => {
+                                            typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
+                                                .callFunction(() => {
+                                                    console.log('String typed out!');
+                                                })
+                                                .callFunction(() => {
+                                                    console.log('All strings were deleted');
+                                                })
+                                                .start();
+                                        }}
+                                    />
+                                </h1>
                                 <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
                                 </p>
+
                                 <div className='d-flex anchor-container gap-4'>
                                     <a href=""><img src={AppStore} alt="app store icon" /></a>
                                     <a href=""><img src={PlayStore} alt="app store icon" /></a>
@@ -34,9 +49,22 @@ const Slider = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="d-flex justify-content-around align-items-center">
+                        <div className="d-lg-flex justify-content-around align-items-center">
                             <div className="carousel-text text-white">
-                                <h1>Simple yet<br />Elegant Design.<br />Better Looks.</h1>
+                                <h1>
+                                    <Typewriter
+                                        onInit={(typewriter) => {
+                                            typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
+                                                .callFunction(() => {
+                                                    console.log('String typed out!');
+                                                })
+                                                .callFunction(() => {
+                                                    console.log('All strings were deleted');
+                                                })
+                                                .start();
+                                        }}
+                                    />
+                                </h1>
                                 <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
                                 </p>
                                 <div className='d-flex anchor-container gap-4'>
