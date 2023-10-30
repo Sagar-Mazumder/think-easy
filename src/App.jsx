@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1 className='fw-bold'>ThinkEasy</h1>
+     
     </>
   )
 }
