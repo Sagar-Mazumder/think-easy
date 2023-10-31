@@ -9,7 +9,7 @@ const Impact = () => {
                 <p className='text-secondary'>It is the Bright One, it is the Right One, that is Love us.</p>
             </div>
             <div className='d-lg-flex p-5 w-75 mx-auto about-container rounded-5 gap-5 mt-5 justify-content-center align-items-center'>
-                <div>
+                <div  data-aos="zoom-in" data-aos-duration="1000">
                     <img className='img-fluid rounded-4' src={impact} alt="" />
                 </div>
                 <div className='text-white'>

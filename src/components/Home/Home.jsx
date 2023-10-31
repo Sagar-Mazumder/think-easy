@@ -7,6 +7,7 @@ import Pricing from '../Pricing/Pricing';
 import Integrations from '../Integrations/Integrations';
 import Impact from '../Impact/Impact';
 import Blog from '../Blog/Blog';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -37,6 +38,8 @@ const Home = () => {
             <Impact></Impact>
             {/* blog section  */}
             <Blog></Blog>
+            {/* contact section  */}
+            <Contact></Contact>
 
 
         </>

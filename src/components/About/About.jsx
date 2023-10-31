@@ -37,7 +37,7 @@ const About = () => {
 
 
                 <div className='d-lg-flex p-5 w-75 mx-auto about-container rounded-5 gap-5 mt-5 justify-content-center align-items-center'>
-                    <div>
+                    <div data-aos="zoom-in" data-aos-duration="1000">
                         <img className='w-100 rounded-4' src={ceo} alt="" />
                     </div>
                     <div className='text-white'>
