@@ -18,7 +18,6 @@ const Impact = () => {
                     </h2>
                     <h6 className='mt-3 fw-bold'>Sagar Mazumder</h6>
                     <p>CEO,Capital SEO</p>
-
                 </div>
             </div>
         </div>

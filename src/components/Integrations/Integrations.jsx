@@ -8,9 +8,7 @@ import img6 from '../../images/intregrations/xbox-logo.png'
 const Integrations = () => {
     return (
         <div>
-
-
-            <div className='d-flex justify-content-center align-items-center w-75 mx-auto gap-4 mt-5'>
+            <div className='d-lg-flex d-md-flex justify-content-center align-items-center w-75 mx-auto gap-4 mt-5'>
                 <div>
                     <h5 className='text-primary'>INTEGRATIONS
                     </h5>

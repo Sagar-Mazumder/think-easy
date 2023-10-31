@@ -11,7 +11,7 @@ const ExtendedFeature = () => {
                 <h1 className='fw-bold'>Simple, Yet Powerful Features</h1>
                 <p className='text-secondary'>There is More Than One Way To Eat A Extended features.</p>
             </div>
-            <div className='d-flex justify-content-center align-items-center w-75 mx-auto'>
+            <div className='d-lg-flex d-md-flex justify-content-center align-items-center w-75 mx-auto'>
                 <div>
                     <div>
                         <h2 className='fw-bold'>Highly Secure</h2>
@@ -43,7 +43,7 @@ const ExtendedFeature = () => {
                         </div>
                     </div>
                 </div>
-                <img className='w-50' src={ExtendFeature} alt="" />
+                <img className='w-50 ' src={ExtendFeature} alt="" />
             </div>
 
 

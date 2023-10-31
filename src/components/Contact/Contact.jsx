@@ -1,4 +1,5 @@
 import React from 'react';
+// fontawesome imported 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhoneVolume, faMap } from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button';
@@ -8,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 const Contact = () => {
     return (
         <div className='mt-5'>
-            <div className='d-flex justify-content-between align-items-center w-75 mx-auto gap-5'>
+            <div className='d-lg-flex justify-content-between align-items-center w-75 mx-auto gap-5'>
                 <div>
                     <div className=''>
                         <h5 className='text-primary'>CONTACT US</h5>

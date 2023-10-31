@@ -1,4 +1,5 @@
 import React from 'react';
+// imported image for blog 
 import blog1 from '../../images/blogs/blog-01.webp'
 import blog2 from '../../images/blogs/blog-02.webp'
 import blog3 from '../../images/blogs/blog-03.webp'
@@ -10,8 +11,7 @@ const Blog = () => {
                 <h1 className='fw-bold'>From the blog and articles</h1>
                 <p className='text-secondary'>The Best Part of Waking Up is Blog and articles in Your Cup.</p>
             </div>
-
-            <div className='d-flex justify-content-center align-items-center w-75 mx-auto gap-5'>
+            <div className='d-lg-flex justify-content-center align-items-center w-75 mx-auto gap-5'>
                 <div>
                     <img className='w-100' src={blog1} alt="" />
                     <p className='mt-3 text-secondary'>Creative, Marketing</p>
@@ -31,7 +31,6 @@ const Blog = () => {
                     <p className='mt-3 text-secondary'>May 6, 2023</p>
                 </div>
             </div>
-
         </div>
     );
 };

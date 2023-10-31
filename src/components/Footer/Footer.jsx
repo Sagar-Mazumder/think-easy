@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 // imported for feature post 
 import featurePost1 from '../../images/feature-post.jpg'
 import featurePost2 from '../../images/feature-post2.jpg'
-
 const Footer = () => {
     return (
         <>
