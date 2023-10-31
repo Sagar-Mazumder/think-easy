@@ -1,11 +1,13 @@
 import React from 'react';
 import './Slider.css';
+// bootstrap Carousel 
 import Carousel from 'react-bootstrap/Carousel';
 import Banner1 from '../../images/slider/banner-mobile.webp';
 import Banner2 from '../../images/slider/banner-mobile2.png';
 import AppStore from '../../images/slider/app-store.webp'
 import PlayStore from '../../images/slider/google-play.webp'
 import { Container } from 'react-bootstrap';
+// for typewriter Animation 
 import Typewriter from 'typewriter-effect';
 
 const Slider = () => {
@@ -17,6 +19,7 @@ const Slider = () => {
                         <div className="d-lg-flex justify-content-around 
                         align-items-center">
                             <div className="carousel-text text-white">
+                                {/* type writer animation  */}
                                 <h1>
                                     <Typewriter
                                         onInit={(typewriter) => {
@@ -51,6 +54,8 @@ const Slider = () => {
                     <Carousel.Item>
                         <div className="d-lg-flex justify-content-around align-items-center">
                             <div className="carousel-text text-white">
+                                {/* type writer animation  */}
+
                                 <h1>
                                     <Typewriter
                                         onInit={(typewriter) => {

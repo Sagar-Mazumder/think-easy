@@ -1,3 +1,4 @@
+/* slider background  */
 .container-background {
     background-image: url('../../images/slider/bannerBg.webp');
     background-size: cover;
@@ -11,17 +12,17 @@
 .carousel-text p {
     font-size: 18px;
 }
-
+/* slider button  */
 .anchor-container a>img {
     width: 196px;
     height: 57px;
 }
-
+/* slider img size  */
 .carousel-image {
     width: 576px;
     height: 792px;
 }
-
+/* for mobile  */
 @media only screen and (max-width: 600px) {
     .carousel-text h1 {
         font-size: 45px;
@@ -41,7 +42,7 @@
     }
 
 }
-
+/* for tablet  */
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
     .carousel-image {
         display: none;

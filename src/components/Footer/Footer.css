@@ -1,0 +1,14 @@
+/* ThinkEasy footer anchor design  */
+.thinkeasy-container a>img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
