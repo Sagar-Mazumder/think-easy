@@ -1,8 +1,8 @@
 import React from 'react';
 import ExtendFeature from '../../images/features-01.webp'
-import ExtendFeature2 from '../../images/features-02.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaw, faLayerGroup } from '@fortawesome/free-solid-svg-icons'
+import './ExtendedFeature.css'
 const ExtendedFeature = () => {
     return (
         <>
@@ -11,7 +11,7 @@ const ExtendedFeature = () => {
                 <h1 className='fw-bold'>Simple, Yet Powerful Features</h1>
                 <p className='text-secondary'>There is More Than One Way To Eat A Extended features.</p>
             </div>
-            <div className='d-lg-flex d-md-flex justify-content-center align-items-center w-75 mx-auto'>
+            <div className='d-lg-flex justify-content-center align-items-center w-75 mx-auto'>
                 <div>
                     <div>
                         <h2 className='fw-bold'>Highly Secure</h2>
@@ -19,7 +19,7 @@ const ExtendedFeature = () => {
                     </div>
 
                     <div>
-                        <div className='d-flex align-items-center  gap-2'>
+                        <div className='d-flex align-items-center gap-2'>
                             <h1 className='text-primary'><FontAwesomeIcon icon={faPaw} /></h1>
                             <div>
                                 <h4>
@@ -30,7 +30,7 @@ const ExtendedFeature = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='d-flex  align-items-center gap-2'>
+                        <div className='d-flex align-items-center gap-2'>
                             <h1 className='text-primary'><FontAwesomeIcon icon={faLayerGroup} /></h1>
                             <div>
                                 <h4>
@@ -43,10 +43,8 @@ const ExtendedFeature = () => {
                         </div>
                     </div>
                 </div>
-                <img className='w-50 ' src={ExtendFeature} alt="" />
+                <img className='img-container img-fluid' src={ExtendFeature} alt="" />
             </div>
-
-
         </>
     );
 };

@@ -1,0 +1,20 @@
+.img-container {
+    width: 676px;
+    height: 613px;
+}
+
+/* for mobile  */
+@media only screen and (max-width: 600px) {
+    .img-container {
+        width: 388px;
+        height: 352px;
+    }
+}
+
+/* for tablet  */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    .img-container {
+        width: 696px;
+        height: 631px;
+    }
+}

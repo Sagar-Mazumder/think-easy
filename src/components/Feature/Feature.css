@@ -1,10 +1,10 @@
-.img-container {
+.feature-img-container {
     width: 376px;
     height: 468px;
 }
 
 @media only screen and (max-width: 600px) {
-    .img-container {
+    .feature-img-container {
         width: 340px;
         height: 461px;
     }
@@ -12,5 +12,10 @@
 
 /* for tablet  */
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
-    
+
+    .feature-img-container {
+        width: 696px;
+        height: 866px;
+    }
+
 }

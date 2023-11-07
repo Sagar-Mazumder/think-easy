@@ -6,7 +6,7 @@ import featureImage from '../../images/feature-mobile.webp'
 const Feature = () => {
     return (
         <>
-            <div className='text-center mt-5' id='feature' style={ {scrollMarginTop:100}}>
+            <div className='text-center mt-5' id='feature' style={{ scrollMarginTop: 100 }}>
                 <h5 className='text-primary'>AWESOME FEATURES
                 </h5>
                 <h1 className='fw-bold'>Check out some of our <br />amazingly crafted features
@@ -16,7 +16,7 @@ const Feature = () => {
 
             <div className='d-lg-flex w-75 mx-auto justify-content-center align-items-center gap-5'>
                 <div>
-                    <div className='d-flex justify-content-center align-items-center  gap-2'>
+                    <div className='d-flex align-items-center  gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faPaw} /></h1>
                         <div>
                             <h4>
@@ -27,7 +27,7 @@ const Feature = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <div className='d-flex align-items-center gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faBell} /></h1>
                         <div>
                             <h4>Smart Notification</h4>
@@ -36,7 +36,7 @@ const Feature = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <div className='d-flex align-items-center gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faCopy} /></h1>
                         <div>
                             <h4>
@@ -48,10 +48,10 @@ const Feature = () => {
                     </div>
                 </div>
 
-                <img className='img-container ' src={featureImage} alt="" />
+                <img className='feature-img-container img-fluid' src={featureImage} alt="" />
 
                 <div>
-                    <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <div className='d-flex align-items-center gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faCommentDots} /></h1>
                         <div>
                             <h4>
@@ -62,7 +62,7 @@ const Feature = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <div className='d-flex  align-items-center gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faShareFromSquare} /></h1>
                         <div>
                             <h4>Social Share</h4>
@@ -71,7 +71,7 @@ const Feature = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <div className='d-flex align-items-center gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faLayerGroup} /></h1>
                         <div>
                             <h4>
@@ -83,7 +83,6 @@ const Feature = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
 
 
