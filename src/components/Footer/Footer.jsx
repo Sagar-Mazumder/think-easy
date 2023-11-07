@@ -8,7 +8,6 @@ import facebook from '../../images/footer/facebook.png'
 import instragram from '../../images/footer/instagram.png'
 import linkdin from '../../images/footer/linkedin.png'
 import whatsapp from '../../images/footer/whatsapp.png'
-import { Link } from 'react-router-dom';
 // imported for feature post 
 import featurePost1 from '../../images/feature-post.jpg'
 import featurePost2 from '../../images/feature-post2.jpg'
@@ -29,21 +28,21 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-2 col-md-5 ms-lg-5">
                     <h4 className='text-black mb-3 mt-3 mt-lg-0 mt-md-0'>Quick Links</h4>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Home</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>About</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Blogs</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Pricing</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Testimonials</Link>
-                    <Link className='link-design text-secondary' to='/'>Feature</Link>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Home</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>About</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Blogs</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Pricing</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Testimonials</a>
+                    <a className='link-design text-secondary' href='/'>Feature</a>
                 </div>
                 <div className="col-lg-2 col-md-5">
                     <h4 className='text-black mb-3 mt-3 mt-lg-0 mt-md-0'>Useful Links</h4>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Documentation</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Developer Only</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Terms & Conditions</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Privacy Policy</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Quick Integrations</Link>
-                    <Link className='d-block mb-2 link-design text-secondary' to='/'>Code Quality</Link>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Documentation</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Developer Only</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Terms & Conditions</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Privacy Policy</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Quick Integrations</a>
+                    <a className='d-block mb-2 link-design text-secondary' href='/'>Code Quality</a>
 
                 </div>
                 <div className="col-lg-2 col-md-5 ">

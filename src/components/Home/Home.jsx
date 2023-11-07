@@ -8,10 +8,15 @@ import Integrations from '../Integrations/Integrations';
 import Impact from '../Impact/Impact';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import Copyright from '../Copyright/Copyright';
 
 const Home = () => {
     return (
         <>
+            {/* header section  */}
+            <Header></Header>
             {/* slider section  */}
             <section>
                 <Slider></Slider>
@@ -40,8 +45,9 @@ const Home = () => {
             <Blog></Blog>
             {/* contact section  */}
             <Contact></Contact>
-
-
+            {/* footer & copyright section  */}
+            <Footer></Footer>
+            <Copyright></Copyright>
         </>
     );
 };

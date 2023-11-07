@@ -7,7 +7,7 @@ import ceo from '../../images/ceo.webp'
 const About = () => {
     return (
         <>
-            <div className='mt-5'>
+            <div className='mt-5'id='about'>
                 <div className='text-center'>
                     <h5 className='text-primary'>WHO WE ARE?</h5>
                     <h1 className='fw-bold'>We are market leader</h1>
@@ -48,7 +48,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
         </>
     );
 };

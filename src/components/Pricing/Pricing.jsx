@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 const Pricing = () => {
     return (
         <>
-            <div className='text-center mt-5'>
+            <div className='text-center mt-5' id='pricing'style={ {scrollMarginTop:100}}>
                 <h5 className='text-primary'>CHOOSE AS YOUR NEED</h5>
                 <h1 className='fw-bold'>Really Simple Pricing</h1>
                 <p className='text-secondary'>No hidden fees, no limits</p>

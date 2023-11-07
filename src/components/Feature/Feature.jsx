@@ -1,11 +1,12 @@
 import React from 'react';
+import './Feature.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaw, faBell, faCopy, faCommentDots, faShareFromSquare, faLayerGroup } from '@fortawesome/free-solid-svg-icons'
 import featureImage from '../../images/feature-mobile.webp'
 const Feature = () => {
     return (
         <>
-            <div className='text-center mt-5'>
+            <div className='text-center mt-5' id='feature' style={ {scrollMarginTop:100}}>
                 <h5 className='text-primary'>AWESOME FEATURES
                 </h5>
                 <h1 className='fw-bold'>Check out some of our <br />amazingly crafted features
@@ -13,7 +14,7 @@ const Feature = () => {
                 <p className='text-secondary'>Amazing features - If you love Amazing features.</p>
             </div>
 
-            <div className='d-lg-flex d-md-flex w-75 mx-auto justify-content-center align-items-center gap-5'>
+            <div className='d-lg-flex w-75 mx-auto justify-content-center align-items-center gap-5'>
                 <div>
                     <div className='d-flex justify-content-center align-items-center  gap-2'>
                         <h1 className='text-primary'><FontAwesomeIcon icon={faPaw} /></h1>
@@ -47,7 +48,7 @@ const Feature = () => {
                     </div>
                 </div>
 
-                <img className='w-25' src={featureImage} alt="" />
+                <img className='img-container ' src={featureImage} alt="" />
 
                 <div>
                     <div className='d-flex justify-content-center align-items-center gap-2'>

@@ -12,83 +12,86 @@ import Typewriter from 'typewriter-effect';
 
 const Slider = () => {
     return (
-        <div className='container-background py-5 pb-lg-0'>
-            <Container >
-                <Carousel data-bs-theme="primary">
-                    <Carousel.Item interval={8000}>
-                        <div className="d-lg-flex justify-content-around 
+        <>
+            <div className='container-background py-5 pb-lg-0'>
+                <Container >
+                    <Carousel data-bs-theme="primary">
+                        <Carousel.Item interval={8000}>
+                            <div className="d-lg-flex justify-content-around 
                         align-items-center">
-                            <div className="carousel-text text-white">
-                                {/* type writer animation  */}
-                                <h1>
-                                    <Typewriter
-                                        onInit={(typewriter) => {
-                                            typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
-                                                .callFunction(() => {
-                                                    console.log('String typed out!');
-                                                })
-                                                .callFunction(() => {
-                                                    console.log('All strings were deleted');
-                                                })
-                                                .start();
-                                        }}
-                                    />
-                                </h1>
-                                <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
-                                </p>
+                                <div className="carousel-text text-white">
+                                    {/* type writer animation  */}
+                                    <h1>
+                                        <Typewriter
+                                            onInit={(typewriter) => {
+                                                typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
+                                                    .callFunction(() => {
+                                                        console.log('String typed out!');
+                                                    })
+                                                    .callFunction(() => {
+                                                        console.log('All strings were deleted');
+                                                    })
+                                                    .start();
+                                            }}
+                                        />
+                                    </h1>
+                                    <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
+                                    </p>
 
-                                <div className='d-flex anchor-container gap-4'>
-                                    <a href=""><img src={AppStore} alt="app store icon" /></a>
-                                    <a href=""><img src={PlayStore} alt="app store icon" /></a>
+                                    <div className='d-flex anchor-container gap-4'>
+                                        <a href=""><img src={AppStore} alt="app store icon" /></a>
+                                        <a href=""><img src={PlayStore} alt="app store icon" /></a>
+                                    </div>
+                                </div>
+                                <div className="carousel-image">
+                                    <img
+                                        className="d-block img-fluid"
+                                        src={Banner1}
+                                        alt="First slide"
+                                    />
                                 </div>
                             </div>
-                            <div className="carousel-image">
-                                <img
-                                    className="d-block img-fluid"
-                                    src={Banner1}
-                                    alt="First slide"
-                                />
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="d-lg-flex justify-content-around align-items-center">
-                            <div className="carousel-text text-white">
-                                {/* type writer animation  */}
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <div className="d-lg-flex justify-content-around align-items-center">
+                                <div className="carousel-text text-white">
+                                    {/* type writer animation  */}
 
-                                <h1>
-                                    <Typewriter
-                                        onInit={(typewriter) => {
-                                            typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
-                                                .callFunction(() => {
-                                                    console.log('String typed out!');
-                                                })
-                                                .callFunction(() => {
-                                                    console.log('All strings were deleted');
-                                                })
-                                                .start();
-                                        }}
+                                    <h1>
+                                        <Typewriter
+                                            onInit={(typewriter) => {
+                                                typewriter.typeString('Simple yet<br />Elegant Design.<br />Better Looks.')
+                                                    .callFunction(() => {
+                                                        console.log('String typed out!');
+                                                    })
+                                                    .callFunction(() => {
+                                                        console.log('All strings were deleted');
+                                                    })
+                                                    .start();
+                                            }}
+                                        />
+                                    </h1>
+                                    <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
+                                    </p>
+                                    <div className='d-flex anchor-container gap-4'>
+                                        <a href=""><img src={AppStore} alt="app store icon" /></a>
+                                        <a href=""><img src={PlayStore} alt="app store icon" /></a>
+                                    </div>
+                                </div>
+                                <div className="carousel-image">
+                                    <img
+                                        className="d-block img-fluid"
+                                        src={Banner2}
+                                        alt="First slide"
                                     />
-                                </h1>
-                                <p>Trending, Clean and Elegant Design based on <br />deeply research with powerful features.
-                                </p>
-                                <div className='d-flex anchor-container gap-4'>
-                                    <a href=""><img src={AppStore} alt="app store icon" /></a>
-                                    <a href=""><img src={PlayStore} alt="app store icon" /></a>
                                 </div>
                             </div>
-                            <div className="carousel-image">
-                                <img
-                                    className="d-block img-fluid"
-                                    src={Banner2}
-                                    alt="First slide"
-                                />
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                </Carousel>
-            </Container>
-        </div>
+                        </Carousel.Item>
+                    </Carousel>
+                </Container>
+            </div>
+        </>
+
     );
 };
 
